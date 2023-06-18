@@ -1,0 +1,98 @@
+
+
+body{
+    overflow-y: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+
+    gap: 20px;
+    position: relative;
+}
+
+.enterlocation{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.input{
+    position: absolute;
+    margin: 543px 0px 0px 428px;
+    display: flex;
+}
+
+
+
+
+input[type="text"] {
+    height: 37px;
+    width: 235px;
+    background: repeating-linear-gradient(2deg, #009688, transparent 82px);
+    border: none;
+    font-size: 25px;
+    border-radius: 6px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+button.currentLocation {
+    height: 39px;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+    background: repeating-linear-gradient(2deg, #37c715, transparent 82px);
+    font-size: 31px;
+    text-align: center;
+    width: 61px;
+    margin-right: 20px;
+    color: #f31e06;
+}
+button#search {
+    width: 150px;
+    height: 39px;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    font-size: 25px;
+    background: repeating-linear-gradient(2deg, #009688, transparent 82px);
+}
+.featurers {
+    position: absolute;
+    margin: 233px 584px;
+}
+img.climateimg {
+    width: 135px;
+}
+h3.climate {
+    position: absolute;
+    margin: -25px 20px;
+    font-size: 34px;
+}
+.arealocation{
+    position: absolute;
+    margin: 288px 315px;
+    width: 297px;
+    text-align: center;
+    font-size: 18px;
+}
+.wind{
+    position: absolute;
+    margin: 425px 690px;
+    width: 219px;
+    font-size: 25px;
+}
+p.invalid {
+  
+    position: absolute;
+    margin: 53px 4px;
+    font-size: 25px;
+    color: red;
+    display: none;
+}
+h1 {
+    position: absolute;
+    margin: 37px 488px;
+    color: #ff5722;
+    font-size: 38px;
+}
