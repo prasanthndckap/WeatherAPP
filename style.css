@@ -2,6 +2,7 @@
 
 body{
     overflow-y: hidden;
+    color: #083274;
 }
 .container{
     display: flex;
